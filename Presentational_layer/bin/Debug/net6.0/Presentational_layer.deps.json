@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Presentational_layer/1.0.0": {
+        "dependencies": {
+          "Business_layer": "1.0.0"
+        },
+        "runtime": {
+          "Presentational_layer.dll": {}
+        }
+      },
+      "Business_layer/1.0.0": {
+        "dependencies": {
+          "Data_layer": "1.0.0"
+        },
+        "runtime": {
+          "Business_layer.dll": {}
+        }
+      },
+      "Data_layer/1.0.0": {
+        "runtime": {
+          "Data_layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Presentational_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
